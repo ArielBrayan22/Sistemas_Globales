@@ -4,11 +4,38 @@
   <title>Sistema de Planes Globales</title>
   <link rel="stylesheet" type="text/css" href="Style.css">
   <link rel="stylesheet" type="text/css" href="Styles_funciones.css">
+
+  <!--Importacion de Iconos y fuentes-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importacion de materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <!--Permitir al Navegador que la web es optimizada para moviles-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-  <header><center><h2 id="titulo_Principal">Sistema de Planes Globales y Programas Analiticos</h2></center>
-  <hr></hr>
-  </header>
+  <!--Importacion de jQuery y materialize.js y scripts iniciadores-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.slider').slider({full_width: true});
+      });
+      
+      $(document).ready(function(){
+        $('.tooltipped').tooltip({delay: 50});
+      });
+        
+      </script>
+  
+  <nav>
+        <div class="nav-wrapper #e53935 red darken-1">
+          <a href="" class="brand-logo">SISTEMA DE PLANES GLOBALES Y PROGRAMAS ANALITICOS</a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="ayuda.html"><i class="material-icons right">live_help</i>Ayuda</a></li>
+              <li><a href="contacto.html"><i class="material-icons right">settings_phone</i>Contactanos</a></li>
+            </ul>
+          </div>
+  </nav>
   
   <aside id="menu">
     <div id="titulo"><a id="titulo" href="menu_root.php">Inicio</a></div>
