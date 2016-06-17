@@ -19,16 +19,21 @@
       	$(document).ready(function(){
       		$('.slider').slider({full_width: true});
     	});
+    	
+    	$(document).ready(function(){
+    		$('.tooltipped').tooltip({delay: 50});
+  		});
+        
       </script>
 
       <nav>
   		  <div class="nav-wrapper #e53935 red darken-1">
       		<a href="" class="brand-logo">SISTEMA DE PLANES GLOBALES Y PROGRAMAS ANALITICOS</a>
       		  <ul class="right hide-on-med-and-down">
-        	    <li><a href="sass.html"><i class="material-icons right">live_help</i>Ayuda</a></li>
-             	<li><a href="badges.html"><i class="material-icons right">settings_phone</i>Contactanos</a></li>
+        	    <li><a href="ayuda.html"><i class="material-icons right">live_help</i>Ayuda</a></li>
+             	<li><a href="contacto.html"><i class="material-icons right">settings_phone</i>Contactanos</a></li>
       		  </ul>
-    	  </div>
+       	  </div>
   	  </nav>
   <hr></hr>
   </header>
